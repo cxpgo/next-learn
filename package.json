@@ -5,7 +5,8 @@
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
     "start": "next start",
-    "test": "npm run lint && npm run prettier:check"
+    "test": "npm run lint && npm run prettier:check",
+    "push": "git add . && git commit -m 'up' && git push"
   },
   "dependencies": {
     "next": "^14.0.0"
